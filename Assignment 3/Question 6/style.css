@@ -99,19 +99,12 @@ video{
         bottom: 35rem;
 }
 
-/* .right-main {
-    margin-left: 60%;
-    margin-top: 2rem;
-  } */
-  
+
 .fees{
     border: 2px solid black;
     height: 500px;
     position: relative;
-    /* top: 1rem; */
     bottom: 35rem;
-    /* left: 10px; */
-    /* padding: 50px; */
     text-align: center;
     background-color: black;
 
@@ -135,3 +128,14 @@ video{
     letter-spacing: normal;
 } */
 
+/* dark-light mode */
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+    .fees{
+        background-color: white;
+    }
+    .fees h2{
+        color: black;
+    }
+    
+  }
+  
