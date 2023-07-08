@@ -5,17 +5,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
-    border: 2px solid black;
-    background-color: white;
-    /* position: fixed; */
-    width: 100%;
-}
-.container{
-    display: flex;
+
+
+.navbar{
     position: fixed;
+    top: 0;
+  width: 100%;
+  background-color: white;
 
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+/* .container{
+    display: flex;
+    position: fixed;
+    width: 100%;
+} */
 
 .container img{
     padding-top: 10px;
@@ -41,7 +51,8 @@ img{
     padding-right: 20px;
     text-decoration: none;
     font-weight: 600;
-    color: rgb(61, 59, 59)
+    color: rgb(61, 59, 59);
+    background-color: white;
 }
 
 button{
@@ -54,20 +65,21 @@ button{
 }
 
 .main{
-    margin-left:15%
+    /* margin-top: 60px; */
+    margin-left:15%;
 }
 
-h2{
+/* h2{
     margin-top: 10rem;
     font-size: 2rem;
-}
-h1{
+} */
+/* h1{
     color:#1893F7;
     font-size: 5rem;
-}
-h3{
+} */
+/* h3{
     color: #1892F7;
-}
+} */
 .main>img{
     height: auto;
     width: 355px;
@@ -83,6 +95,43 @@ video{
     position: relative;
     height: 90%;
     width: 40%;
-    left: 45rem;
-    bottom: 35rem;
+        left: 45rem;
+        bottom: 35rem;
 }
+
+/* .right-main {
+    margin-left: 60%;
+    margin-top: 2rem;
+  } */
+  
+.fees{
+    border: 2px solid black;
+    height: 500px;
+    position: relative;
+    /* top: 1rem; */
+    bottom: 35rem;
+    /* left: 10px; */
+    /* padding: 50px; */
+    text-align: center;
+    background-color: black;
+
+}
+
+/* h1{
+    padding: 60px;
+    color:#217ee6;                           
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.33;
+} */
+
+/* h2{
+    padding: 10px ;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+} */
+
