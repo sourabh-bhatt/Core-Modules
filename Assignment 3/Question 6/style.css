@@ -5,13 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 .navbar{
-    position: fixed;
     top: 0;
-  width: 100%;
-  background-color: white;
+    width: 100%;
+    background-color: white;
 
 }
 
@@ -21,11 +18,6 @@
     align-items: center;
     padding: 10px;
   }
-/* .container{
-    display: flex;
-    position: fixed;
-    width: 100%;
-} */
 
 .container img{
     padding-top: 10px;
@@ -65,21 +57,10 @@ button{
 }
 
 .main{
-    /* margin-top: 60px; */
+
     margin-left:15%;
 }
 
-/* h2{
-    margin-top: 10rem;
-    font-size: 2rem;
-} */
-/* h1{
-    color:#1893F7;
-    font-size: 5rem;
-} */
-/* h3{
-    color: #1892F7;
-} */
 .main>img{
     height: auto;
     width: 355px;
@@ -91,14 +72,13 @@ p{
 
 /* right main */
 
-video{
+.card-video{
     position: relative;
     height: 90%;
     width: 40%;
-        left: 45rem;
-        bottom: 35rem;
+    left: 45rem;
+    bottom: 35rem;
 }
-
 
 .fees{
     border: 2px solid black;
@@ -110,26 +90,8 @@ video{
 
 }
 
-/* h1{
-    padding: 60px;
-    color:#217ee6;                           
-    font-size: 64px;
-    font-weight: 500;
-    line-height: 1.33;
-} */
-
-/* h2{
-    padding: 10px ;
-    color: white;
-    font-size: 3rem;
-    font-weight: 500;
-    font-stretch: normal;
-    line-height: 1;
-    letter-spacing: normal;
-} */
-
 /* dark-light mode */
-@media only screen and (min-width: 480px) and (max-width: 800px) {
+/* @media only screen and (min-width: 480px) and (max-width: 800px) {
     .fees{
         background-color: white;
     }
@@ -138,4 +100,4 @@ video{
     }
     
   }
-  
+   */
