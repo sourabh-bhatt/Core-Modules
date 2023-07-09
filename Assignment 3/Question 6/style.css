@@ -1,103 +1,283 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.navbar{
-    top: 0;
-    width: 100%;
-    background-color: white;
-
+nav {
+    padding: 20px 30px;
 }
 
-.container {
+nav>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-  }
-
-.container img{
-    padding-top: 10px;
-    padding-left: 100px;
+    max-width: 80rem;
+    margin: auto;
 }
 
-img{
-    height: 50px;
-    width: 398px;
-    background-color: white;
+.logo {
+    width: 3.5rem;
+    cursor: pointer;
+    margin-left: 10rem;
 }
 
-.container ul{
-    padding-top: 20px;
-    padding-left: 80px;
-    list-style-type: none;
-    background-color: white;
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
 }
 
-.container ul li a{
-    justify-content: flex-end;
-    margin-left: 50px;
-    padding-right: 20px;
+.nav-link {
     text-decoration: none;
+    color: #383737;
+    font-size: 15px;
     font-weight: 600;
-    color: rgb(61, 59, 59);
-    background-color: white;
+    cursor: pointer;
 }
 
-button{
+.nav-btn {
     background-color: #1893F7;
+    border: none;
     color: white;
     margin: 0px 16px;
-    padding: 4px 8px;
+    padding: 8px 15px;
     border-radius: 5px;
     font-size: 14px;
+    font-weight: 600;
 }
 
-.main{
-
-    margin-left:15%;
+.nav-btn:hover{
+    background-color: #065291;
+    transition-duration: 1s;
 }
 
-.main>img{
-    height: auto;
-    width: 355px;
-    margin-top: 1rem;
-}
-p{
-    margin-top: 1rem;
+.menu {
+    width: 1.7rem;
+    display: none;
+    cursor: pointer;
 }
 
-/* right main */
-
-.card-video{
-    position: relative;
-    height: 90%;
-    width: 40%;
-    left: 45rem;
-    bottom: 35rem;
+.small-screen-nav{
+    display: none;
 }
 
-.fees{
-    border: 2px solid black;
-    height: 500px;
-    position: relative;
-    bottom: 35rem;
+.main {
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.main .left-main {
+    margin-top: 7rem;
+}
+
+.welcome {
+    color: #020202;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.onecard {
+    color: #1792F7;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.sponsers {
+    color: #2997F6;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.onecard-details {
+    width: 22rem;
+}
+
+.breif {
+    color: #020202;
+    margin-top: 1.8rem;
+}
+
+.apply-btn{
+    margin-top: 1.5rem;
+
+}
+
+.card-video {
+    width: 40rem;
+}
+
+
+/* fees */
+
+.fees {
+    background-color: #000000;
     text-align: center;
-    background-color: black;
-
+    padding: 100px;
 }
 
-/* dark-light mode */
-/* @media only screen and (min-width: 480px) and (max-width: 800px) {
-    .fees{
-        background-color: white;
+.fees-heading {
+    color: #20248e;
+    font-size: 3.5rem;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+
+.fees-sub {
+    color: #FFFFFF;
+    font-size: 2.1rem;
+    margin-top: 10px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+/* footer - section */
+footer {
+    background-color: #121315;
+    margin-top: 50px;
+    padding: 80px 50px;
+}
+
+footer>div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-details {
+    font-size: 17px;
+    line-height: 25px;
+    color: #839099;
+    max-width: 21rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-link {
+    font-size: 17px;
+    text-decoration: none;
+    color: #839099;
+}
+
+.footer-input {
+    outline: none;
+    border: none;
+    padding: 18px 12px;
+    width: 18rem;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+}
+
+.footer-btn {
+    display: block;
+    width: 100%;
+    background-color: #1893F7;
+    color: #fff;
+    padding: 18px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1040px) {
+    /* Styles for main section */
+    .main {
+        flex-direction: column;
+        align-items: center;
     }
-    .fees h2{
-        color: black;
+
+    .card-video {
+        margin-top: 80px;
+        width: 100%;
     }
-    
-  }
-   */
+
+    /* Styles for footer */
+
+    footer{
+        padding: 80px 30px;
+    }
+
+    footer>div {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-details{
+        max-width: 100%;
+    }
+
+    .footer-input {
+        width: calc(100% - 24px);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* Styles for navbar */
+    .nav-items{
+        display: none;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    /* Styles for information section */
+    .fees {
+        background: #fff;
+    }
+
+    .fees-heading {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    .fees-sub {
+        font-size: 1.5rem;
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 380px){
+    /* Styles for main section */
+    .welcome{
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .onecard{
+        font-size: 3rem;
+    }
+
+    .sponsers{
+        font-size: 1.1rem;
+    }
+
+    .onecard-details{
+        width: 100%;
+    }
+}
