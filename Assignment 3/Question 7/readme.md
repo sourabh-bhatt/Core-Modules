@@ -1,4 +1,4 @@
-# Grid - Responsive
+# Grid: - Responsive
 
 Link: [Grid](https://responsivee-grid.vercel.app/)
 
