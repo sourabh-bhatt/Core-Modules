@@ -201,7 +201,7 @@ footer>div {
 /* Media Queries */
 
 @media screen and (max-width: 1040px) {
-    /* Styles for main section */
+    
     .main {
         flex-direction: column;
         align-items: center;
@@ -212,7 +212,7 @@ footer>div {
         width: 100%;
     }
 
-    /* Styles for footer */
+    
 
     footer{
         padding: 80px 30px;
@@ -233,7 +233,7 @@ footer>div {
 }
 
 @media screen and (max-width: 640px) {
-    /* Styles for navbar */
+    
     .nav-items{
         display: none;
     }
@@ -246,7 +246,7 @@ footer>div {
         display: block;
     }
 
-    /* Styles for information section */
+
     .fees {
         background: #fff;
     }
@@ -263,7 +263,6 @@ footer>div {
 }
 
 @media screen and (max-width: 380px){
-    /* Styles for main section */
     .welcome{
         font-size: 1.8rem;
         margin-bottom: 0.5rem;
