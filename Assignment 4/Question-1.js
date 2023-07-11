@@ -18,3 +18,15 @@ test = 10;
 console.log(test);
 test = 5;
 //Output - 10
+
+// 2: By using function declaration
+// The function declaration also hoist. Its scope also moved above the current scope to the top.
+// It defines the function definition automatically on the top of the code, before execution.
+// Note: The function hoisting dosen't work with function expressions and arrow functions.
+funcHoisting(); //it will be hoisted
+function funcHoisting() {
+  console.log("Hii");
+}
+//Output -- Hii after the hoisting
+
+// Note: The const and let are not hoisted.
