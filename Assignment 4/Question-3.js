@@ -5,7 +5,7 @@
 // 1. Scope:
 // The variables we declare using var have the scope of gloabal scope or functions scope.
 // But with let they have block scope. Which means they are only available in the block where they are declared.
-// Example with var
+// Example with var:
 function exampleVar() {
   if (true) {
     var x = 10;

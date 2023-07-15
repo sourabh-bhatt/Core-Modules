@@ -4,7 +4,7 @@
 // of their scope, during the compilation phase before the code being executed.
 // By this we can use variables and functions before they are actually declared in the code.
 
-// The hoisting can be done in 2 ways
+// The hoisting can be done in 2 ways.
 
 // 1: By using variable declaration that is only using `var`
 
