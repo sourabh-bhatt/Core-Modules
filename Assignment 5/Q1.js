@@ -11,8 +11,6 @@ console.log("End");
 
 // Asynchronous: In asynchronous programming, code does not wait for a blocking operation to complete. Instead, it continues to execute while the operation is being processed in the background. Asynchronous operations are typically used for tasks that may take some time to complete, such as fetching data from a server or reading a file.
 
-// Callback functions, promises, and async/await are common mechanisms used to handle asynchronous operations in JavaScript.
-
 console.log("Start");
 
 doAsyncOperation(function (result) {
