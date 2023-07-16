@@ -6,3 +6,12 @@
 
 // setTimeout(function, milliseconds);
 // setInterval(function, milliseconds);
+
+// The setTimeout can be executed as:
+// The code will execute the function myFunction() after 2 seconds:
+setTimeout(myFunction, 2000);
+
+// The setInterval can be executed as:
+setInterval(myFunction, 1000);
+
+// The code will execute the function myFunction() repeatedly, every 1 second:
