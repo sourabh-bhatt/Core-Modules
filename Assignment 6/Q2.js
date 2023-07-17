@@ -10,3 +10,5 @@ const obj = {
 };
 
 obj.sayHello(); // Output: Hello, World
+
+// The usage of the "this" keyword allows for more flexible and reusable code by providing a way to access and manipulate object properties within the context of the current object. It plays a crucial role in object-oriented programming in JavaScript.
