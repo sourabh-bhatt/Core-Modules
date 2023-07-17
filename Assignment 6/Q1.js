@@ -4,7 +4,7 @@
 // The constructor is responsible for initializing the object's properties and methods.
 // It can also be used to perform any other necessary initialization tasks.
 
-// For example:
+// For example:-
 
 function person(name, age) {
   this.name = name;

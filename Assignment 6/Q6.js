@@ -6,7 +6,7 @@
 
 // Method overriding is when a method in a subclass has the same name and signature as a method in its parent class. This means that the method in the subclass will override the method in the parent class.
 
-// For example
+// For example:
 
 class Animal {
   speak() {

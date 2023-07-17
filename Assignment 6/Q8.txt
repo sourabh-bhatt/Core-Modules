@@ -1,4 +1,4 @@
-// Encapsulation is a fundamental concept in object-oriented programming that combines data and methods into a single unit called an object.
+// Encapsulation is a fundamental concept in object-oriented programming that combines data and methods into a single unit called an object,
 // It involves bundling the data (properties) and the methods (functions) that operate on that data within a single entity, hiding the internal details from the outside and providing controlled access to the object's data through a well-defined interface.
 
 // The purpose of encapsulation in JavaScript (and in OOP in general) is to achieve data abstraction, data hiding, and access control.

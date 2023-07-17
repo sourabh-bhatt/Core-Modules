@@ -2,7 +2,7 @@
 
 // Classes are defined using the class keyword.
 
-// For example, the following code defines a class called Animal:
+// For example, the following code defines a class called Animal:-
 
 class Animal {
   name = "Animal";

@@ -1,6 +1,6 @@
 The call(), apply(), and bind() methods are used to change the value of the this keyword in JavaScript. 
 
-- Differences: 
+- Differences:- 
 
 1. call(): The call() method takes a list of arguments as its first parameter, and the value of this is set to the first argument in the list. The remaining arguments in the list are passed to the function as normal.
 

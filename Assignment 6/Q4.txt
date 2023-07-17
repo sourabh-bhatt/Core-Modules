@@ -6,6 +6,6 @@ There are four main concepts of OOP in JavaScript:
 
 Encapsulation: Encapsulation is the hiding of data and methods from the outside world. This means that only the methods that are defined for an object can access the data that is stored in that object.
 Inheritance: Inheritance is the ability of one object to inherit the properties and methods of another object. This means that a new object can be created that has all of the properties and methods of the object that it inherits from.
-Polymorphism: Polymorphism is the ability of an object to take on different forms. This means that an object can be used in different ways, depending on the context in which it is used.
+Polymorphism:- Polymorphism is the ability of an object to take on different forms. This means that an object can be used in different ways, depending on the context in which it is used.
 Abstraction: Abstraction is the hiding of the implementation details of an object from the outside world. This means that only the methods that are defined for an object need to be known by the outside world.
 OOP can be a very powerful tool for writing JavaScript code. It can help to make code easier to write, maintain, and reuse. However, it is important to note that OOP is not always the best solution for every problem. There are times when procedural programming may be a better choice.
