@@ -1,0 +1,5 @@
+// Abstraction is the process of hiding the implementation details of an object from the outside world. This means that only the methods that are defined for an object need to be known by the outside world.
+
+// The purpose of abstraction is to make code easier to understand and use. By hiding the implementation details, the user of an object only needs to know how to use the object, not how it works. This can make code more modular and reusable.
+
+// Abstraction is a key concept in object-oriented programming (OOP). In OOP, objects are used to represent real-world entities. By abstracting the implementation details of an object, the programmer can create objects that are more closely aligned with the real-world entities that they represent.
