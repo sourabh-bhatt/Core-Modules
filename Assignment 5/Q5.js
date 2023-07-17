@@ -2,7 +2,7 @@
 
 // Callbacks are an important part of asynchronous JavaScript, as they allow you to write code that does not block the main thread while waiting for an asynchronous operation to complete.
 
-// Callback Hell is a term used to describe the problem of nested callbacks that can make code difficult to read and maintain.
+// Callback Hell is a term used to describe the problem of nested callbacks that can make code difficult to read and maintain..
 
 // Callback hell can occur when you use callbacks to chain together multiple asynchronous operations. For example, the following code shows an example of callback hell:
 

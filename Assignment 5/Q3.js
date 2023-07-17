@@ -2,7 +2,7 @@
 
 // setInterval() schedules a function to be executed repeatedly at a specified interval of milliseconds.
 
-// They can be executed as:
+// They can be executed as:-
 
 // setTimeout(function, milliseconds);
 // setInterval(function, milliseconds);

@@ -1,6 +1,6 @@
 // In order to handel asynchronous codes in js, we can do in following ways:
 
-// Callbacks: Callbacks are functions that are passed as arguments to other functions and are called when the other functions have finished executing. This is a relatively old way of handling async code, and it can be difficult to write and debug code that uses callbacks.
+// Callbacks:- Callbacks are functions that are passed as arguments to other functions and are called when the other functions have finished executing. This is a relatively old way of handling async code, and it can be difficult to write and debug code that uses callbacks.
 
 // Promises: Promises are objects that represent the eventual completion (or failure) of an asynchronous operation. Promises can be chained together, which makes it easy to write code that handles multiple asynchronous operations.
 

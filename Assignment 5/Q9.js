@@ -3,7 +3,7 @@
 
 // The fetch() method takes a URL as its argument. It can also take an optional options object that specifies the request method, headers, and body.
 
-// For example
+// For example:
 
 fetch("https://api.example.com/users")
   .then((response) => {

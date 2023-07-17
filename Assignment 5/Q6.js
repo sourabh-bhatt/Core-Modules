@@ -22,7 +22,7 @@
 //     console.log(error); // Error: The promise was rejected!
 //   });
 
-// Promise using finally
+// Promise using finally:
 
 const promise = new Promise((resolve, reject) => {
   setTimeout(() => {
