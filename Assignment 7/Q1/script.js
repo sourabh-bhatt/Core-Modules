@@ -5,7 +5,7 @@ const questions = [
     answer: "Programmming Language",
   },
   {
-    name: "How many 2+2?",
+    name: "How many 2+2 ?",
     options: ["1", "2", "3", "4"],
     answer: "4",
   },

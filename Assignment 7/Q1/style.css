@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -40,19 +40,18 @@ body {
     margin-bottom: 10px;
 }
 
-#answers option {
-    color: #000;
-    font-size: 16px;
+#answers>option {
+    color: black;
+    font-size: 1rem;
 }
 
 #submit {
-    height: 2rem;
-    font-size: 16px;
+    height: 2.2rem;
+    font-size: 1rem;
+    color: black;
+    background-color: #72d2d7;
     width: 100%;
-    color: #000;
-    background-color: #41E5ED;
     border: none;
-    cursor: pointer;
 }
 
 #leaderboard {
@@ -61,35 +60,35 @@ body {
 }
 
 .title {
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
     background-color: #41E5ED;
-    font-size: 18px;
-    border-radius: 10px;
     width: 100%;
-    color: #1C1A5E;
-    padding: 2px 0;
-    margin-bottom: 20px;
+    color: #201e5a;
+    padding: 3px;
+    margin-bottom: 1.3rem;
 }
 
-.summary {
-    font-size: 16px;
+.desc {
+    font-size: 1rem;
 }
 
-.summary:nth-child(2) {
-    margin-bottom: 30px;
+.desc:nth-child(2) {
+    margin-bottom: 1.4rem;
 }
 
 .result-area {
-    border: 2px solid #fff;
-    font-size: 16px;
-    padding: 3px 0;
+    border: 2px solid white;
+    font-size: 1rem;
+    padding: 0.78rem;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 1.78rem;
 }
 
 #status-areas {
-    border-radius: 25px;
+    border-radius: 1rem;
     margin: 0 auto;
+    display: none;
     width: fit-content;
     padding: 1rem;
-    display: none;
 }
