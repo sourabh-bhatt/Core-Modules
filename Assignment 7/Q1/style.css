@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    background-color: #5e6dcc;
+}
+
+.app-heading {
+    text-align: center;
+    margin: 5rem;
+}
+
+.hero {
+    background-color: #1C1A5E;
+    width: fit-content;
+    margin: 5rem auto;
+    padding: 50px;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+.question-section {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#answers {
+    height: 2rem;
+    width: 100%;
+    display: block;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#answers option {
+    color: #000;
+    font-size: 16px;
+}
+
+#submit {
+    height: 2rem;
+    font-size: 16px;
+    width: 100%;
+    color: #000;
+    background-color: #41E5ED;
+    border: none;
+    cursor: pointer;
+}
+
+#leaderboard {
+    text-align: center;
+    display: none;
+}
+
+.title {
+    background-color: #41E5ED;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 100%;
+    color: #1C1A5E;
+    padding: 2px 0;
+    margin-bottom: 20px;
+}
+
+.summary {
+    font-size: 16px;
+}
+
+.summary:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.result-area {
+    border: 2px solid #fff;
+    font-size: 16px;
+    padding: 3px 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#status-areas {
+    border-radius: 25px;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 1rem;
+    display: none;
+}
