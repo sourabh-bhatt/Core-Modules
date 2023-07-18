@@ -1,15 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(50, 50, 167);
+    background-color: #3C329A;
 }
 
 h1{
-    border: 2px solid white;
     height: 250px;
-    /* width: 100%; */
     font-size: 13rem;
     letter-spacing: 0.2em;
     text-align: center;
+    color: #000000;
+    opacity: 0.4;
 
+}
+
+.container{
+    height: 15vh;
+    background-color: #6758F6;
+    width: 300px;
+    margin: 5rem auto;
+    border-radius: 10px;    
 }
