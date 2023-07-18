@@ -1,4 +1,4 @@
-# Quiz Wb APP
+# Quiz Web APP
 
 Link: [Quiz App](https://quiz-js-web-dev.netlify.app/)
 
