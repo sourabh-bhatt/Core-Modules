@@ -1,14 +1,11 @@
 .grid-container {
-    /* position: fixed; */
     border: 2px solid black;
     padding-top: 2rem;
     padding-bottom: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
     grid-gap: 10px;
     text-align: center;
-    /* align-items: center; */
   }
   
   .box {
@@ -24,6 +21,11 @@
     .grid-container{
         display: block;
     }
+    img{
+      width: 18rem;
+    }
+    
+    
   }
 
   
