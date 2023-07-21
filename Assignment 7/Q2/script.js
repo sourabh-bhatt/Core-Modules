@@ -1,4 +1,4 @@
-function updateTime() {
+function updateTimer() {
   const now = new Date();
   const hour = now.getHours();
   const minute = now.getMinutes();
@@ -9,4 +9,4 @@ function updateTime() {
   document.getElementById("second").innerText = second;
 }
 
-setInterval(updateTime, 1000);
+setInterval(updateTimer, 1000);
